@@ -7,13 +7,13 @@ default_install_hook_types:
 
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.9
+    rev: v0.11.10
     hooks:
-      - id: ruff # soon to be deprecated in favor of "ruff-check"
+      - id: ruff-check
       - id: ruff-format
 
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.7.3
+    rev: 0.7.4
     hooks:
       - id: uv-lock
       - id: uv-sync

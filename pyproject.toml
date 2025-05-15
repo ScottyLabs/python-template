@@ -8,7 +8,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [dependency-groups]
-dev = ["pre-commit>=4.2.0", "ruff>=0.11.9", "ty>=0.0.1a2"]
+dev = ["pre-commit>=4.2.0", "ruff>=0.11.10", "ty>=0.0.1a2"]
 
 [tool.ty.terminal]
 error-on-warning = true
